@@ -13,6 +13,12 @@ const assignment = {};
  * @param {Array} arrayOfNumbers the array of numbers to sum
  * @returns number the sum of the numbers
  */
+
+
+// function sumOfNumbers(arrayOfNumbers) {
+//     return arrayOfNumbers.length;}
+assignment.sumOfNumbers = sumOfNumbers;
+
 const numbers = [1,2,3,4,5,6,7,8,9,10]
 
 function sumOfNumbers(arrayOfNumbers){
@@ -22,10 +28,6 @@ function sumOfNumbers(arrayOfNumbers){
 }
 let sumTotal= sumOfNumbers(numbers)
 console.log (`The sum of all the numbers in the array of numbers is ${sumTotal}`)
-
-// function sumOfNumbers(arrayOfNumbers) {
-//     return arrayOfNumbers.length;}
-
 
 
 /**
@@ -38,10 +40,8 @@ console.log (`The sum of all the numbers in the array of numbers is ${sumTotal}`
  * @returns number the count of even numbers
  */
 
+assignment.countEvenNumbers= countEvenNumbers;
 
-function countEvenNumbers(arrayOfNumbers) {
-    return arrayOfNumbers.length;
-}
 const someNumbers = [1,2,3,4,5,6,7,8,9,10,11,12]
 
 function countEvenNumbers(arrayOfNumbers) {
